@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-body {
-    background: #BDBDBD;
-}
+
 
 .tagline {
     background-image: url('../img/bg.jpg');
@@ -21,6 +19,24 @@ body {
 .background-white {
     background-color: white;
     padding: 10px;
+}
+
+hr.style1 {
+    border-top: 1px solid #8c8b8b;
+}
+span.style1{
+    color: rgb(99, 99, 100);
+}
+img.style1 {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+
+}
+
+.first-heading {
+    height: 200px;
+
 }
 
 .foot {
