@@ -57,3 +57,24 @@ img.style1 {
 .align-right {
     float: right;
 }
+
+.custom-card {
+    border: none; 
+}
+
+.custom-text {
+    text-align: justify;
+}
+
+.porfolio-heading {
+    height: 80px;
+}
+
+.contact-heading {
+    height: 120px;
+}
+
+footer{
+    margin-left: 80px;
+}
+
