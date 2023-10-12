@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,19 +8,37 @@ body {
 }
 
 .tagline {
-    background-image: url('/website/assets/img/bg.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position-y: -300px;
     max-height: 500px;
-    padding-top: 50px; 
+    padding-top: 50px;
     padding-bottom: 200px;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .background-white {
     background-color: white;
     padding: 10px;
+}
+
+hr.style1 {
+    border-top: 1px solid #8c8b8b;
+}
+span.style1{
+    color: rgb(99, 99, 100);
+}
+img.style1 {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+
+}
+
+.first-heading {
+    height: 200px;
+
 }
 
 .foot {
