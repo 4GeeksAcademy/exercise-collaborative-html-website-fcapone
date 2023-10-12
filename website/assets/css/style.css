@@ -1,3 +1,31 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background: #BDBDBD;
 }
+
+.tagline {
+    background-image: url('/website/assets/img/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position-y: -300px;
+    max-height: 500px;
+    padding-top: 50px; 
+    padding-bottom: 200px;
+    background-color: transparent; 
+}
+
+.background-white {
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
