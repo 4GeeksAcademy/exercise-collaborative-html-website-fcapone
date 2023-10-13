@@ -1,43 +1,57 @@
-<div class="row p-4">
-  <div class="col-1"></div>
-  <div class="col-10">
-      <hr class="style1">
-  </div>
-  <div class="col-1"></div>
-</div>
-<div class="row m-1 contact-heading mt-5">
-  <div class="col-1"></div>
-  <div class="col-10">
-      <h4>
-          <strong>Contact</strong>
-      </h4>
-      <p class="text-justify">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla vestibulum sapien,
-          id hendrerit velit. In hac habitasse platea dictumst. Quisque eget augue nec arcu finibus fermentum.
-          Vivamus aliquet, ex sed tincidunt sollicitudin, nunc ligula tincidunt velit, in vehicula libero purus non arcu."
-      </p>
-  </div>
-</div>
-<div class="container mb-5">
-  <div class="col-6 mx-auto">
-      <form class="custom-border">
-          <div class="row mb-2 ms-5">
-              <label for="email" class="col-3 col-form-label text-right"><strong>Your E-mail</strong></label>
-              <div class="col-9">
-                  <input type="email" class="form-control" id="email">
-              </div>
-          </div>
-          <div class="row mb-2 ms-5">
-              <label for="message" class="col-3 col-form-label text-right"><strong>Your message</strong></label>
-              <div class="col-9">
-                  <textarea class="form-control" id="message" rows="4"></textarea>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-12 text-right">
-                  <button type="submit" class="btn btn-primary align-right">Submit</button>
-              </div>
-          </div>
-      </form>
-  </div>
+<div class="container custom-container"> <!-- Contenedor principal para la sección de contacto -->
+    <div class="row p-4 custom-space"> <!-- Fila con espaciado personalizado -->
+        <div class="col-1"></div> <!-- Espacio vacío de 1 columna en el lado izquierdo -->
+        <div class="col-10">
+            <hr class="style1"> <!-- Línea horizontal con estilo1 -->
+        </div>
+        <div class="col-1"></div> <!-- Espacio vacío de 1 columna en el lado derecho -->
+    </div>
+    <div class="row m-1 contact-heading mt-1"> <!-- Fila para el encabezado de contacto con margen superior -->
+        <div class="col-1"></div> <!-- Espacio vacío de 1 columna en el lado izquierdo -->
+        <div class="col-10">
+            <h4>
+                <strong>Contact</strong> <!-- Encabezado de contacto -->
+            </h4>
+            <p class="text-justify">
+                <!-- Texto justificado para la sección de contacto -->
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla vestibulum sapien,
+                id hendrerit velit. In hac habitasse platea dictumst. Quisque eget augue nec arcu finibus fermentum.
+                Vivamus aliquet, ex sed tincidunt sollicitudin, nunc ligula tincidunt velit, in vehicula libero purus
+                non arcu."
+            </p>
+        </div>
+    </div>
+
+    <div class="col-12 col-lg-6 mx-auto">
+        <!-- Columna para el formulario con tamaño específico para pantallas grandes -->
+        <form class="custom-border"> <!-- Formulario con bordes personalizados -->
+            <div class="row mb-2 ms-5"> <!-- Fila con margen inferior y espaciado personalizado -->
+                <label for="email" class="col-12 col-lg-3 col-form-label text-lg-right text-center">
+                    <!-- Etiqueta para el campo de correo electrónico con alineación personalizada -->
+                    <strong>Your E-mail</strong>
+                </label>
+                <div class="col-12 col-lg-9">
+                    <input type="email" class="form-control" id="email">
+                    <!-- Campo de entrada de correo electrónico -->
+                </div>
+            </div>
+            <div class="row mb-2 ms-5"> <!-- Fila con margen inferior y espaciado personalizado -->
+                <label for="message" class="col-12 col-lg-3 col-form-label text-lg-right text-center">
+                    <!-- Etiqueta para el campo de mensaje con alineación personalizada -->
+                    <strong>Your message</strong>
+                </label>
+                <div class="col-12 col-lg-9">
+                    <textarea class="form-control" id="message" rows="4"></textarea>
+                    <!-- Campo de entrada de mensaje con área de texto -->
+                </div>
+            </div>
+            <div class="row"> <!-- Fila sin margen inferior -->
+                <div class="col-12 text-center text-lg-right mb-3 mb-sm-0">
+                    <!-- Columna para alinear el botón de envío en el centro para pantallas pequeñas y a la derecha para pantallas grandes -->
+                    <button type="submit" class="btn btn-primary align-right">Submit</button>
+                    <!-- Botón de envío con estilo primario -->
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
