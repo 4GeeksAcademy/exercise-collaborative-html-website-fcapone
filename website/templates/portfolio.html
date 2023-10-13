@@ -1,61 +1,65 @@
-<!-- your html code here -->
-<div class="row p-4">
-      
-    <div class="col-1"></div>
-    <div class="col-10 ">
-        <hr class="style1">
-        <div calss="porfolio">          
-           <h4>
-               Porfolio
-           </h4>
-           <p>
-                Donec ullamcorper nulla non metus autor fingilla. Vestibulum id ligula porta felis
-                euismod semper. Praesent commodo curus <br>magna, vel scelerisque nils
-                consectetur. Fucse dapibus, tellus ac cursus commode.
-           </p>
-         </div> 
-      
-     </div>
-     </div>
-     
-</div>
+<div class="container"> <!-- Contenedor principal -->
+    <div class="row p-4 custom-space">
+        <div class="col-1"></div> <!-- Espacio vacío de 1 columna en el lado izquierdo -->
+        <div class="col-10">
+            <hr class="style1"> <!-- Línea horizontal con estilo1 -->
+        </div>
+        <div class="col-1"></div> <!-- Espacio vacío de 1 columna en el lado derecho -->
+    </div>
+    <div class="row m-1 porfolio-heading mt-1"> <!-- Fila para el encabezado del portafolio con margen superior -->
+        <div class="col-1"></div> <!-- Espacio vacío de 1 columna en el lado izquierdo -->
+        <div class="col-10">
+            <h4>
+                <strong>Porfolio</strong> <!-- Encabezado del portafolio -->
+            </h4>
+            <p class="custom-text">
+                <!-- Texto personalizado -->
+                Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
+                porta felis euismod semper. Praesent commodo cursus magna, vel consectetur.
+                Fusce dapibus, tellus ac cursus commodo.
+            </p>
+        </div>
+    </div>
 
-
-    <div class="row">
-        <div class="col-1" ></div>
-        <div class="col-md-10 badge-danger">
-            <div class="card-group">
-                <div class="card mt-3 mb-3" style="width: 10rem;">
-                    <img src="../website/assets/img/big-project-image.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Name</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-                    </div>
+    <div class="row p-4 mt-1"> <!-- Fila con espaciado personalizado -->
+        <div class="card-group col-10 mx-auto"> <!-- Grupo de tarjetas con margen izquierdo y derecho automático -->
+            <div class="card custom-card align-items-start"> <!-- Tarjeta personalizada alineada hacia arriba -->
+                <a href="../website/assets/img/big-project-image.png">
+                    <img src="../website/assets/img/big-project-image.png" class="card-img-top ms-4" alt="Card Image 1">
+                </a>
+                <div class="card-body">
+                    <h4 class="card-title text-primary custom-h4 ms-1">Project Name</h4> <!-- Título de la tarjeta -->
+                    <p class="card-text custom-text ms-1"> <!-- Texto personalizado de la tarjeta -->
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                        viverra euismod odio, gravida pellentesque urna varius vitae.
+                    </p>
                 </div>
-                <div class="card m-3 mt-3 mb-3" style="width: 10rem;">
-                    <img src="../website/assets/img/big-project-image.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Name</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-                    </div>
+            </div>
+            <!-- Tarjetas adicionales similares con contenido diferente -->
+            <div class="card custom-card align-items-start">
+                <a href="../website/assets/img/big-project-image.png">
+                    <img src="../website/assets/img/big-project-image.png" class="card-img-top ms-4" alt="Card Image 2">
+                </a>
+                <div class="card-body">
+                    <h4 class="card-title text-primary custom-h4 ms-1">Project Name</h4>
+                    <p class="card-text custom-text ms-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+                        euismod odio, gravida pellentesque urna varius vitae.
+                    </p>
                 </div>
-                <div class="card mt-3 mb-3" style="width: 10rem;">
-                    <img src="../website/assets/img/big-project-image.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Name</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-                    </div>
+            </div>
+            <div class="card custom-card align-items-start">
+                <a href="../website/assets/img/big-project-image.png">
+                    <img src="../website/assets/img/big-project-image.png" class="card-img-top ms-4" alt="Card Image 3">
+                </a>
+                <div class="card-body">
+                    <h4 class="card-title text-primary custom-h4 ms-1">Project Name</h4>
+                    <p class="card-text custom-text ms-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+                        euismod odio, gravida pellentesque urna varius vitae.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="col-1"></div>
-  
-</div>
- 
+    </div>
 </div>

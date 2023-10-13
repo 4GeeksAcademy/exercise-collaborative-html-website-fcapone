@@ -1,6 +1,8 @@
+/* Estilos de reseteo */
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
 }
 
 .navbar-dark .navbar-brand {
@@ -9,6 +11,23 @@
 
 .tagline {
     background-image: url('../img/bg.jpg');
+=======
+  }
+  
+  /* Color del body */
+  body {
+    background: white;
+  }
+  
+  /* Estilo general para el navbar */
+  .navbar-custom {
+    position: relative;
+  }
+  
+  /* Estilos para sección tagline */
+  .tagline {
+    background-image: url("../img/bg.jpg");
+>>>>>>> ce6820a21806c813b5eb859754f45b34eba3ee73
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: -300px;
@@ -16,15 +35,17 @@
     padding-top: 50px;
     padding-bottom: 200px;
     background-color: transparent;
-}
-
-.background-white {
+  }
+  
+  /*Estilos para clases específicas */
+  .background-white {
     background-color: white;
     padding: 10px;
-}
-
-hr.style1 {
+  }
+  
+  hr.style1 {
     border-top: 1px solid #8c8b8b;
+<<<<<<< HEAD
 }
 
 span.style1 {
@@ -32,14 +53,23 @@ span.style1 {
 }
 
 img.style1 {
+=======
+  }
+  
+  span.style1 {
+    color: rgb(99, 99, 100);
+  }
+  
+  img.style1 {
+>>>>>>> ce6820a21806c813b5eb859754f45b34eba3ee73
     object-fit: cover;
     width: 200px;
     height: 200px;
-
-}
-
-.first-heading {
+  }
+  
+  .first-heading {
     height: 200px;
+<<<<<<< HEAD
 
 }
 
@@ -50,5 +80,157 @@ img.style1 {
 
 
 .foot {
+=======
+  }
+  
+  .foot {
+>>>>>>> ce6820a21806c813b5eb859754f45b34eba3ee73
     font-size: 12px;
-}
+  }
+  
+  .custom-border {
+    border: 1px solid #cac7c7f3;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2b7;
+  }
+  
+  .align-right {
+    float: right;
+  }
+  
+  .custom-card {
+    border: none;
+  }
+  
+  .custom-text {
+    text-align: justify;
+  }
+  
+  .porfolio-heading {
+    height: 80px;
+  }
+  
+  .contact-heading {
+    height: 120px;
+  }
+  
+  /* Estilo para el footer */
+  footer {
+    margin-left: 80px;
+  }
+  
+  /* Media Query para pantallas "xs" y "s" (móviles pequeños) */
+  @media (max-width: 767px) {
+    .tagline {
+      background-size: cover;
+      background-position: center;
+      max-height: initial;
+      padding-top: 100px;
+      padding-bottom: 200px;
+    }
+  
+    .container {
+      height: 500px;
+    }
+  
+    .text-justify {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .custom-container {
+      margin-top: 900px;
+    }
+  
+    .custom-border {
+      margin-top: 200px;
+      margin-bottom: 40px;
+    }
+  
+    .custom-border .text-center {
+      text-align: left;
+    }
+  
+    .custom-border .row.full-width .col-3,
+    .custom-border .row.full-width .col-9 {
+      width: 80%;
+    }
+
+    .first-heading {
+        text-align: center;
+    }
+  
+    .first-heading.custom-space + .row.m-1.first-heading.custom-space {
+      margin-top: 20px;
+    }
+  
+    span.style1 {
+      display: block;
+    }
+  
+    .card-group {
+      margin-top: 150px;
+      margin-bottom: 100px;
+    }
+  
+    .image-section-1 {
+      margin-bottom: 20px;
+    }
+
+    .image-section-2 {
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .contact-heading {
+      margin-top: 500px;
+      margin-bottom: 100px;
+    }
+    footer .row {
+      margin-top: 250px;
+    }
+  }
+  
+  /* Media Query para pantallas de tamaño tablet y más grandes */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .tagline {
+      background-size: cover;
+      background-position: center;
+      max-height: initial;
+      padding-top: 150px;
+      padding-bottom: 250px;
+    }
+  
+    .first-heading {
+      margin-bottom: 80px;
+    }
+  
+    hr.style1 {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  
+    span.style1 {
+      text-align: left;
+    }
+
+    .custom-border{
+        margin-top: 60px;
+    }
+
+    .card-group{
+        margin-top: 40px;
+    }
+
+  }
+  
+
+
+
+
+
+
+
+
